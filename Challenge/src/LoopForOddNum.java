@@ -11,10 +11,11 @@ public class LoopForOddNum {
 
         while (a<=x) {
              System.out.println("Odd Number: " + a);
-             a = a+2;
-             sum = sum + a;
-            System.out.println("Sum of Odd Numbers: " + sum);
+            sum = sum + a;
+            a = a+2;
         }
+        System.out.println("Sum of Odd Numbers: " + sum);
+
 
     }
 }
