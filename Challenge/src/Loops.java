@@ -10,5 +10,14 @@ public class Loops {
 		for (;x>0; x--) {
 			System.out.println("print out number between 10 to 1: " + x);
 		}
+		// print out the times table for 3 using a for and while loop
+		int a = 0;
+		for (; a<6; a++) {
+			System.out.println("Multiple of 3:" + a*3 );
+		}
+		while (a<11) {
+			System.out.println("Multiple of 3: " + a*3);
+			a++;
+		}
 	}
 }
