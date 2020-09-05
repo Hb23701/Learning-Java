@@ -7,5 +7,8 @@ public class Loops {
 			x++;
 		}
 
+		for (;x>0; x--) {
+			System.out.println("print out number between 10 to 1: " + x);
+		}
 	}
 }
