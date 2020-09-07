@@ -1,4 +1,4 @@
-// Write a program to display n terms of odd natural numbers and tpublic class LoopForOddNum {
+// Write a program to display n terms of odd natural numbers and also display it's sum
 import java.util.Scanner;
 
 public class LoopForOddNum {
