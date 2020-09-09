@@ -15,7 +15,14 @@ public class Arrayhoo {
             }
         }
         if (!found) {
-            System.out.println("Element " + b + " is not found in array: ");
+            System.out.println("Element " + b + " is not found in array a");
+        }
+        int[] newArray = new int[a.length];
+        int c = 0;
+        while (c<a.length){
+            newArray[c] = Integer.parseInt(a[c]);
+            System.out.println(newArray[c]);
+            c++;
         }
     }
 }
