@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Arrayhoo {
     public static void main(String[] args) {
+        // finding an element's position in an array
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter numbers 1 to 10 separated by comma: ");
         String[] a = sc.nextLine().split(",");
@@ -14,9 +15,11 @@ public class Arrayhoo {
                 found = true;
             }
         }
+        // when element not found
         if (!found) {
             System.out.println("Element " + b + " is not found in array a");
         }
+        //how to create a duplicate of the original array
         int[] newArray = new int[a.length];
         int c = 0;
         while (c<a.length){
@@ -24,6 +27,20 @@ public class Arrayhoo {
             System.out.println(newArray[c]);
             c++;
         }
+        //get min and max values of array
+        int maxnum = Integer.MIN_VALUE;
+        int minnum = Integer.MAX_VALUE;
+        for (int d = 0; d<a.length; d++) {
+            if(maxnum < Integer.parseInt(a[d])) {
+                maxnum = Integer.parseInt(a[d]);
+            }
+            if(minnum > Integer.parseInt(a[d])) {
+                minnum = Integer.parseInt(a[d]);
+            }
+        }
+        System.out.println(maxnum);
+        System.out.println(minnum);
+
     }
 }
 
