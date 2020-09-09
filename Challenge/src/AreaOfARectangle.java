@@ -8,10 +8,7 @@ public class AreaOfARectangle {
         System.out.print("Please enter a decimal value for breadth: ");
         double breadth = sc.nextDouble();
         int area = (int) (length * breadth);
-        System.out.println("Area of rectangle is: ");
-
-
-
+        System.out.println("Area of rectangle is: " + area);
     }
 
 
